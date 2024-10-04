@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+.title h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Cross Boxed', sans-serif;
+    text-shadow: 5px 5px 10px black;
+}
+
+.title p {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Cross Boxed', sans-serif;
+    text-shadow: 5px 5px 10px black;
+}
+
+body {
+    background-color:rgb(19, 11, 53);
+    background:linear-gradient( red, black);
+    height: 100%;
+    width: auto;
+}
+
+.navbar {
+    background-color: aliceblue;
+    color: rgb(19, 11, 53);
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 10px 10px 10px; 
+}
+
+.navbar li {
+    display: inline-flex;
+    width: 200px;
+    height: 30px;
+    font-family: 'Cross Boxed', sans-serif; 
+    padding: 10px;      
+    align-items: center; 
+                
+   
+}
+
+.biopic {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid aliceblue;
+    border-radius: 50%;
+    box-shadow: 20px 20px 20px black;
+    margin-top: 50px;
+    
+}
+
+#home:hover {
+color: red;
+text-decoration:none;
+text-shadow: 3px 3px rgb(19, 11, 53);
+
+}
+
+#about:hover {
+        color: red;
+        text-decoration:none;
+        text-shadow: 3px 3px rgb(19, 11, 53);
+        }
+
+   
+#projects:hover {
+    color: red;
+    text-decoration:none;
+    text-shadow: 3px 3px rgb(19, 11, 53);
+    }
+         
+    
+
+#contact:hover {
+    color: red;
+    text-decoration:none;
+    text-shadow: 3px 3px rgb(19, 11, 53);
+        }    
+
+a {
+    text-decoration: none;
+    color: rgb(19, 11, 53);
+}
+
+a :active {
+    color: rgb(19, 11, 53);
+}
+
+p {
+    font-family: Helvetica;
+}
+
+.me {
+    display: flex;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Haunted Villa', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.intro {
+    display: flex;
+    height: auto;
+    width: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+    color: aliceblue;
+    box-shadow: 20px 20px 35px black;
+                                                
+}
+
+.intro p {
+    font-family: 'Haunted Villa', sans-serif;                                           
+    font-size: 25px;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+    text-shadow: 2px 2px 1px rgb(19, 11, 53);
+    letter-spacing: 1px;
+    overflow:clip;
+}
+
+footer {
+height: 100px;
+}
